@@ -1,0 +1,2 @@
+The Firebase Framework allows clients to store and sync data in realtime. By subscribing to data sets,
+clients are given instant updates through the Firebase API.

@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF26D5C01951EC8C00450E99 /* NestWebViewAuthController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF26D5BF1951EC8C00450E99 /* NestWebViewAuthController.m */; };
+		AF26D5C3195210CC00450E99 /* NestControlsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF26D5C2195210CC00450E99 /* NestControlsViewController.m */; };
+		AF26D60E19522AF100450E99 /* ThermostatView.m in Sources */ = {isa = PBXBuildFile; fileRef = AF26D60D19522AF100450E99 /* ThermostatView.m */; };
+		AF26D6111952517200450E99 /* NestThermostatManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AF26D6101952517200450E99 /* NestThermostatManager.m */; };
+		AF26D6141952606C00450E99 /* NestStructureManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AF26D6131952606C00450E99 /* NestStructureManager.m */; };
+		AF7BD6BE195DEFB500296A8C /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = AF7BD6BD195DEFB500296A8C /* Constants.m */; };
+		AF95AB381953281A006FD4A4 /* Thermostat.m in Sources */ = {isa = PBXBuildFile; fileRef = AF95AB371953281A006FD4A4 /* Thermostat.m */; };
+		AF9CCB351954FC7200EE6D38 /* FirebaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AF9CCB341954FC7200EE6D38 /* FirebaseManager.m */; };
+		AFCD57A619621A1B001DD6B6 /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFCD57A519621A1B001DD6B6 /* Firebase.framework */; };
+		AFE7212E1950E7EF0082270D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFE7212D1950E7EF0082270D /* Foundation.framework */; };
+		AFE721301950E7EF0082270D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFE7212F1950E7EF0082270D /* CoreGraphics.framework */; };
+		AFE721321950E7EF0082270D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFE721311950E7EF0082270D /* UIKit.framework */; };
+		AFE721381950E7F00082270D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AFE721361950E7F00082270D /* InfoPlist.strings */; };
+		AFE7213A1950E7F00082270D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE721391950E7F00082270D /* main.m */; };
+		AFE7213E1950E7F00082270D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE7213D1950E7F00082270D /* AppDelegate.m */; };
+		AFE721401950E7F00082270D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFE7213F1950E7F00082270D /* Images.xcassets */; };
+		AFE721471950E7F00082270D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFE721461950E7F00082270D /* XCTest.framework */; };
+		AFE721481950E7F00082270D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFE7212D1950E7EF0082270D /* Foundation.framework */; };
+		AFE721491950E7F00082270D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFE721311950E7EF0082270D /* UIKit.framework */; };
+		AFE721511950E7F00082270D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AFE7214F1950E7F00082270D /* InfoPlist.strings */; };
+		AFE721531950E7F00082270D /* iOS_NestDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE721521950E7F00082270D /* iOS_NestDKTests.m */; };
+		AFE7215E1950E8470082270D /* NestConnectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE7215D1950E8470082270D /* NestConnectViewController.m */; };
+		AFE721661950E8890082270D /* UIColor+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE721651950E8890082270D /* UIColor+Custom.m */; };
+		AFE721681950ED790082270D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFE721671950ED790082270D /* QuartzCore.framework */; };
+		AFE7216A1950ED7D0082270D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFE721691950ED7D0082270D /* Security.framework */; };
+		AFE7216C1950ED810082270D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFE7216B1950ED810082270D /* CFNetwork.framework */; };
+		AFE7216E1950ED850082270D /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AFE7216D1950ED850082270D /* libicucore.dylib */; };
+		AFE721701950ED8B0082270D /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AFE7216F1950ED8B0082270D /* libc++.dylib */; };
+		AFE721741950F2620082270D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFE721731950F2620082270D /* SystemConfiguration.framework */; };
+		AFE721781950F3FB0082270D /* NestAuthManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE721771950F3FB0082270D /* NestAuthManager.m */; };
+		AFE7217C1950FE2D0082270D /* AccessToken.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE7217B1950FE2D0082270D /* AccessToken.m */; };
+		AFE721801951090B0082270D /* MainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE7217F1951090B0082270D /* MainNavigationController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFE7214A1950E7F00082270D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFE721221950E7EF0082270D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFE721291950E7EF0082270D;
+			remoteInfo = "iOS-NestDK";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AF26D5BE1951EC8C00450E99 /* NestWebViewAuthController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestWebViewAuthController.h; sourceTree = "<group>"; };
+		AF26D5BF1951EC8C00450E99 /* NestWebViewAuthController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestWebViewAuthController.m; sourceTree = "<group>"; };
+		AF26D5C1195210CC00450E99 /* NestControlsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestControlsViewController.h; sourceTree = "<group>"; };
+		AF26D5C2195210CC00450E99 /* NestControlsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestControlsViewController.m; sourceTree = "<group>"; };
+		AF26D60C19522AF100450E99 /* ThermostatView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThermostatView.h; sourceTree = "<group>"; };
+		AF26D60D19522AF100450E99 /* ThermostatView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThermostatView.m; sourceTree = "<group>"; };
+		AF26D60F1952517200450E99 /* NestThermostatManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestThermostatManager.h; sourceTree = "<group>"; };
+		AF26D6101952517200450E99 /* NestThermostatManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestThermostatManager.m; sourceTree = "<group>"; };
+		AF26D6121952606C00450E99 /* NestStructureManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestStructureManager.h; sourceTree = "<group>"; };
+		AF26D6131952606C00450E99 /* NestStructureManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestStructureManager.m; sourceTree = "<group>"; };
+		AF7BD6BD195DEFB500296A8C /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		AF95AB361953281A006FD4A4 /* Thermostat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Thermostat.h; sourceTree = "<group>"; };
+		AF95AB371953281A006FD4A4 /* Thermostat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Thermostat.m; sourceTree = "<group>"; };
+		AF9CCB331954FC7200EE6D38 /* FirebaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirebaseManager.h; sourceTree = "<group>"; };
+		AF9CCB341954FC7200EE6D38 /* FirebaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirebaseManager.m; sourceTree = "<group>"; };
+		AFCD57A519621A1B001DD6B6 /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Firebase.framework; path = third_party/Firebase.framework; sourceTree = "<group>"; };
+		AFE7212A1950E7EF0082270D /* iOS-NestDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-NestDK.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFE7212D1950E7EF0082270D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AFE7212F1950E7EF0082270D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AFE721311950E7EF0082270D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AFE721351950E7EF0082270D /* iOS-NestDK-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS-NestDK-Info.plist"; sourceTree = "<group>"; };
+		AFE721371950E7F00082270D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AFE721391950E7F00082270D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AFE7213B1950E7F00082270D /* iOS-NestDK-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS-NestDK-Prefix.pch"; sourceTree = "<group>"; };
+		AFE7213C1950E7F00082270D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AFE7213D1950E7F00082270D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AFE7213F1950E7F00082270D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AFE721451950E7F00082270D /* iOS-NestDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-NestDKTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFE721461950E7F00082270D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AFE7214E1950E7F00082270D /* iOS-NestDKTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS-NestDKTests-Info.plist"; sourceTree = "<group>"; };
+		AFE721501950E7F00082270D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AFE721521950E7F00082270D /* iOS_NestDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_NestDKTests.m; sourceTree = "<group>"; };
+		AFE7215C1950E8470082270D /* NestConnectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestConnectViewController.h; sourceTree = "<group>"; };
+		AFE7215D1950E8470082270D /* NestConnectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestConnectViewController.m; sourceTree = "<group>"; };
+		AFE721641950E8890082270D /* UIColor+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Custom.h"; sourceTree = "<group>"; };
+		AFE721651950E8890082270D /* UIColor+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Custom.m"; sourceTree = "<group>"; };
+		AFE721671950ED790082270D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		AFE721691950ED7D0082270D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		AFE7216B1950ED810082270D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		AFE7216D1950ED850082270D /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		AFE7216F1950ED8B0082270D /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		AFE721731950F2620082270D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		AFE721751950F3670082270D /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		AFE721761950F3FB0082270D /* NestAuthManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestAuthManager.h; sourceTree = "<group>"; };
+		AFE721771950F3FB0082270D /* NestAuthManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestAuthManager.m; sourceTree = "<group>"; };
+		AFE7217A1950FE2D0082270D /* AccessToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccessToken.h; sourceTree = "<group>"; };
+		AFE7217B1950FE2D0082270D /* AccessToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccessToken.m; sourceTree = "<group>"; };
+		AFE7217E1951090B0082270D /* MainNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainNavigationController.h; sourceTree = "<group>"; };
+		AFE7217F1951090B0082270D /* MainNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainNavigationController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFE721271950E7EF0082270D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFE721741950F2620082270D /* SystemConfiguration.framework in Frameworks */,
+				AFE721701950ED8B0082270D /* libc++.dylib in Frameworks */,
+				AFE7216E1950ED850082270D /* libicucore.dylib in Frameworks */,
+				AFE7216C1950ED810082270D /* CFNetwork.framework in Frameworks */,
+				AFE7216A1950ED7D0082270D /* Security.framework in Frameworks */,
+				AFCD57A619621A1B001DD6B6 /* Firebase.framework in Frameworks */,
+				AFE721681950ED790082270D /* QuartzCore.framework in Frameworks */,
+				AFE721301950E7EF0082270D /* CoreGraphics.framework in Frameworks */,
+				AFE721321950E7EF0082270D /* UIKit.framework in Frameworks */,
+				AFE7212E1950E7EF0082270D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFE721421950E7F00082270D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFE721471950E7F00082270D /* XCTest.framework in Frameworks */,
+				AFE721491950E7F00082270D /* UIKit.framework in Frameworks */,
+				AFE721481950E7F00082270D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF26D60B19522AC300450E99 /* UIViews */ = {
+			isa = PBXGroup;
+			children = (
+				AF26D60C19522AF100450E99 /* ThermostatView.h */,
+				AF26D60D19522AF100450E99 /* ThermostatView.m */,
+			);
+			name = UIViews;
+			sourceTree = "<group>";
+		};
+		AFE721211950E7EF0082270D = {
+			isa = PBXGroup;
+			children = (
+				AFE721331950E7EF0082270D /* iOS-NestDK */,
+				AFE7214C1950E7F00082270D /* iOS-NestDKTests */,
+				AFE7212C1950E7EF0082270D /* Frameworks */,
+				AFE7212B1950E7EF0082270D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFE7212B1950E7EF0082270D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFE7212A1950E7EF0082270D /* iOS-NestDK.app */,
+				AFE721451950E7F00082270D /* iOS-NestDKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFE7212C1950E7EF0082270D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFE721731950F2620082270D /* SystemConfiguration.framework */,
+				AFE7216F1950ED8B0082270D /* libc++.dylib */,
+				AFCD57A519621A1B001DD6B6 /* Firebase.framework */,
+				AFE7216D1950ED850082270D /* libicucore.dylib */,
+				AFE7216B1950ED810082270D /* CFNetwork.framework */,
+				AFE721691950ED7D0082270D /* Security.framework */,
+				AFE721671950ED790082270D /* QuartzCore.framework */,
+				AFE7212D1950E7EF0082270D /* Foundation.framework */,
+				AFE7212F1950E7EF0082270D /* CoreGraphics.framework */,
+				AFE721311950E7EF0082270D /* UIKit.framework */,
+				AFE721461950E7F00082270D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AFE721331950E7EF0082270D /* iOS-NestDK */ = {
+			isa = PBXGroup;
+			children = (
+				AFE7217D195108F70082270D /* UINavigationControllers */,
+				AFE721791950F4020082270D /* Nest API */,
+				AF26D60B19522AC300450E99 /* UIViews */,
+				AFE721601950E8510082270D /* UIViewControllers */,
+				AFE7215F1950E84B0082270D /* Categories */,
+				AFE721751950F3670082270D /* Constants.h */,
+				AF7BD6BD195DEFB500296A8C /* Constants.m */,
+				AFE7213C1950E7F00082270D /* AppDelegate.h */,
+				AFE7213D1950E7F00082270D /* AppDelegate.m */,
+				AFE7213F1950E7F00082270D /* Images.xcassets */,
+				AFE721341950E7EF0082270D /* Supporting Files */,
+			);
+			path = "iOS-NestDK";
+			sourceTree = "<group>";
+		};
+		AFE721341950E7EF0082270D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFE721351950E7EF0082270D /* iOS-NestDK-Info.plist */,
+				AFE721361950E7F00082270D /* InfoPlist.strings */,
+				AFE721391950E7F00082270D /* main.m */,
+				AFE7213B1950E7F00082270D /* iOS-NestDK-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AFE7214C1950E7F00082270D /* iOS-NestDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFE721521950E7F00082270D /* iOS_NestDKTests.m */,
+				AFE7214D1950E7F00082270D /* Supporting Files */,
+			);
+			path = "iOS-NestDKTests";
+			sourceTree = "<group>";
+		};
+		AFE7214D1950E7F00082270D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AFE7214E1950E7F00082270D /* iOS-NestDKTests-Info.plist */,
+				AFE7214F1950E7F00082270D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AFE7215F1950E84B0082270D /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				AFE721641950E8890082270D /* UIColor+Custom.h */,
+				AFE721651950E8890082270D /* UIColor+Custom.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		AFE721601950E8510082270D /* UIViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AFE7215C1950E8470082270D /* NestConnectViewController.h */,
+				AFE7215D1950E8470082270D /* NestConnectViewController.m */,
+				AF26D5C1195210CC00450E99 /* NestControlsViewController.h */,
+				AF26D5C2195210CC00450E99 /* NestControlsViewController.m */,
+			);
+			name = UIViewControllers;
+			sourceTree = "<group>";
+		};
+		AFE721791950F4020082270D /* Nest API */ = {
+			isa = PBXGroup;
+			children = (
+				AF9CCB331954FC7200EE6D38 /* FirebaseManager.h */,
+				AF9CCB341954FC7200EE6D38 /* FirebaseManager.m */,
+				AF26D60F1952517200450E99 /* NestThermostatManager.h */,
+				AF26D6101952517200450E99 /* NestThermostatManager.m */,
+				AF26D6121952606C00450E99 /* NestStructureManager.h */,
+				AF26D6131952606C00450E99 /* NestStructureManager.m */,
+				AFE721761950F3FB0082270D /* NestAuthManager.h */,
+				AFE721771950F3FB0082270D /* NestAuthManager.m */,
+				AF26D5BE1951EC8C00450E99 /* NestWebViewAuthController.h */,
+				AF26D5BF1951EC8C00450E99 /* NestWebViewAuthController.m */,
+				AFE7217A1950FE2D0082270D /* AccessToken.h */,
+				AFE7217B1950FE2D0082270D /* AccessToken.m */,
+				AF95AB361953281A006FD4A4 /* Thermostat.h */,
+				AF95AB371953281A006FD4A4 /* Thermostat.m */,
+			);
+			name = "Nest API";
+			sourceTree = "<group>";
+		};
+		AFE7217D195108F70082270D /* UINavigationControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AFE7217E1951090B0082270D /* MainNavigationController.h */,
+				AFE7217F1951090B0082270D /* MainNavigationController.m */,
+			);
+			name = UINavigationControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFE721291950E7EF0082270D /* iOS-NestDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFE721561950E7F00082270D /* Build configuration list for PBXNativeTarget "iOS-NestDK" */;
+			buildPhases = (
+				AFE721261950E7EF0082270D /* Sources */,
+				AFE721271950E7EF0082270D /* Frameworks */,
+				AFE721281950E7EF0082270D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-NestDK";
+			productName = "iOS-NestDK";
+			productReference = AFE7212A1950E7EF0082270D /* iOS-NestDK.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFE721441950E7F00082270D /* iOS-NestDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFE721591950E7F00082270D /* Build configuration list for PBXNativeTarget "iOS-NestDKTests" */;
+			buildPhases = (
+				AFE721411950E7F00082270D /* Sources */,
+				AFE721421950E7F00082270D /* Frameworks */,
+				AFE721431950E7F00082270D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFE7214B1950E7F00082270D /* PBXTargetDependency */,
+			);
+			name = "iOS-NestDKTests";
+			productName = "iOS-NestDKTests";
+			productReference = AFE721451950E7F00082270D /* iOS-NestDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFE721221950E7EF0082270D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Nest Labs";
+				TargetAttributes = {
+					AFE721441950E7F00082270D = {
+						TestTargetID = AFE721291950E7EF0082270D;
+					};
+				};
+			};
+			buildConfigurationList = AFE721251950E7EF0082270D /* Build configuration list for PBXProject "iOS-NestDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AFE721211950E7EF0082270D;
+			productRefGroup = AFE7212B1950E7EF0082270D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFE721291950E7EF0082270D /* iOS-NestDK */,
+				AFE721441950E7F00082270D /* iOS-NestDKTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFE721281950E7EF0082270D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFE721381950E7F00082270D /* InfoPlist.strings in Resources */,
+				AFE721401950E7F00082270D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFE721431950E7F00082270D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFE721511950E7F00082270D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFE721261950E7EF0082270D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFE7215E1950E8470082270D /* NestConnectViewController.m in Sources */,
+				AF26D5C3195210CC00450E99 /* NestControlsViewController.m in Sources */,
+				AFE7213E1950E7F00082270D /* AppDelegate.m in Sources */,
+				AFE721661950E8890082270D /* UIColor+Custom.m in Sources */,
+				AF9CCB351954FC7200EE6D38 /* FirebaseManager.m in Sources */,
+				AF7BD6BE195DEFB500296A8C /* Constants.m in Sources */,
+				AFE7213A1950E7F00082270D /* main.m in Sources */,
+				AF26D60E19522AF100450E99 /* ThermostatView.m in Sources */,
+				AFE721801951090B0082270D /* MainNavigationController.m in Sources */,
+				AFE721781950F3FB0082270D /* NestAuthManager.m in Sources */,
+				AF26D6111952517200450E99 /* NestThermostatManager.m in Sources */,
+				AFE7217C1950FE2D0082270D /* AccessToken.m in Sources */,
+				AF26D5C01951EC8C00450E99 /* NestWebViewAuthController.m in Sources */,
+				AF95AB381953281A006FD4A4 /* Thermostat.m in Sources */,
+				AF26D6141952606C00450E99 /* NestStructureManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFE721411950E7F00082270D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFE721531950E7F00082270D /* iOS_NestDKTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFE7214B1950E7F00082270D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFE721291950E7EF0082270D /* iOS-NestDK */;
+			targetProxy = AFE7214A1950E7F00082270D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AFE721361950E7F00082270D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFE721371950E7F00082270D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AFE7214F1950E7F00082270D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFE721501950E7F00082270D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFE721541950E7F00082270D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AFE721551950E7F00082270D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFE721571950E7F00082270D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/third_party",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS-NestDK/iOS-NestDK-Prefix.pch";
+				INFOPLIST_FILE = "iOS-NestDK/iOS-NestDK-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AFE721581950E7F00082270D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/third_party",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS-NestDK/iOS-NestDK-Prefix.pch";
+				INFOPLIST_FILE = "iOS-NestDK/iOS-NestDK-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AFE7215A1950E7F00082270D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOS-NestDK.app/iOS-NestDK";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS-NestDK/iOS-NestDK-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iOS-NestDKTests/iOS-NestDKTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AFE7215B1950E7F00082270D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOS-NestDK.app/iOS-NestDK";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS-NestDK/iOS-NestDK-Prefix.pch";
+				INFOPLIST_FILE = "iOS-NestDKTests/iOS-NestDKTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFE721251950E7EF0082270D /* Build configuration list for PBXProject "iOS-NestDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFE721541950E7F00082270D /* Debug */,
+				AFE721551950E7F00082270D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFE721561950E7F00082270D /* Build configuration list for PBXNativeTarget "iOS-NestDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFE721571950E7F00082270D /* Debug */,
+				AFE721581950E7F00082270D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFE721591950E7F00082270D /* Build configuration list for PBXNativeTarget "iOS-NestDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFE7215A1950E7F00082270D /* Debug */,
+				AFE7215B1950E7F00082270D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFE721221950E7EF0082270D /* Project object */;
+}
