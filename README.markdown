@@ -1,6 +1,6 @@
 # Nest for iOS
 
-Sample iOS app demonstrating Nest Developer auth and simple thermostat control. You'll need a Nest Developer credentials to run this sample code. (see https://developer.nest.com)
+Sample iOS app demonstrating Nest Developer auth and simple thermostat control. You'll need a Nest Developer account to run this sample code. (see https://developer.nest.com)
 
 ## Building
 
